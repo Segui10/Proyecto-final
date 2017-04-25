@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Segui\AndroidStudioProjects\ProjecteAppAndroid-master\RestauranteRicoPaRico\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\Segui\AndroidStudioProjects\ProjecteAppAndroid-master\RestauranteRicoPaRico\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_cd36f8de11014129aca78db66132206aa8513f5f.jar" />
+    </item>
+
+</items>

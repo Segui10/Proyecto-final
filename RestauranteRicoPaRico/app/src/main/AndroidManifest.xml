@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.herprogramacion.restaurantericoparico">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- EXTERNAL_STORAGE permissions are optional for Android 6.0 onwards. -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.RicoPaRico">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDM_cs91lwj3EQkBIsFwBtI_HUU-aBDGpY" />
+
+        <activity
+            android:name=".ui.ActividadPrincipal"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ConNavigationDrawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ActividadConfiguracion"
+            android:label="@string/titulo_actividad_configuracion"
+            android:parentActivityName=".ui.ActividadPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.ActividadPrincipal" />
+        </activity>
+        <activity
+            android:name=".ui.DetailActivity"
+            android:label="Prueba"
+            android:parentActivityName=".ui.ActividadPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.ActividadPrincipal" />
+        </activity>
+        <activity android:name=".ui.activities.BookDetailActivity" />
+        <activity
+            android:name=".ui.activities.BookListActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ActividadContact"
+            android:label="Contact"
+            android:parentActivityName=".ui.ActividadPrincipal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.ActividadPrincipal" />
+        </activity>
+        <activity android:name=".ui.init.test"></activity>
+        <activity android:name=".ui.init.MorePopMovie" />
+        <activity android:name=".ui.init.NowPlaying" />
+        <activity android:name=".ui.init.TopRatedS" />
+        <activity android:name=".ui.init.MorePopSer" />
+        <activity android:name=".ui.init.OnAir" />
+        <activity android:name=".ui.init.Peliculas" />
+        <activity android:name=".ui.init.Series" />
+        <activity android:name=".ui.VideoTube" />
+        <activity android:name=".ui.Pop"
+            android:theme="@style/AppTheme.CustomTheme"
+            />
+        <activity android:name=".ui.ForumActivity" />
+    </application>
+
+</manifest>

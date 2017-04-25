@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">"FireMovie"</string>
+
+    <string name="action_settings">Configuration</string>
+    <string name="action_search">Search</string>
+
+
+    <string name="item_inicio">Home</string>
+
+    <string name="item_categorias">Categories</string>
+    <string name="item_configuracion">Configuration</string>
+    <string name="item_search">Search</string>
+    <string name="item_contact">Contact</string>
+
+    <string name="titulo_comidas_populares">More demanded</string>
+
+    <string name="item_contact1">\nDenominació de l\'Empresa\n</string>
+    <string name="item_contact2">Contacte de l\'empresa\n\n</string>
+
+    <string name="titulo_tab_platillos">PLATILLOS</string>
+    <string name="titulo_tab_bebidas">BEBIDAS</string>
+    <string name="titulo_tab_postres">POSTRES</string>
+
+    <string name="titulo_tab_perfil">PERFIL</string>
+    <string name="titulo_tab_direcciones">DIRECCIONES</string>
+    <string name="titulo_tab_tarjetas">TARJETAS</string>
+
+    <string name="mv">More Rated</string>
+    <string name="mp">More Popular</string>
+    <string name="oa">Now Playing</string>
+    <string name="tr">Top Rated</string>
+    <string name="tp">TV Popular</string>
+    <string name="tvoa">TV On Air</string>
+    <string name="ser">Series</string>
+    <string name="pel">Peliculas</string>
+
+    <string name="movies">Movies</string>
+    <string name="serie">TV</string>
+
+    <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
+
+    <string name="etiqueta_carrito">Carrito</string>
+
+    <string name="texto_cambiar_contrasena">Change password</string>
+    <string name="etiqueta_contrasena">Password</string>
+    <string name="etiqueta_info_usuario">User Information</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="menu_configuration">Configuracion</string>
+    <string name="forum">Forum</string>
+    <string name="menu_lang">Language</string>
+</resources>

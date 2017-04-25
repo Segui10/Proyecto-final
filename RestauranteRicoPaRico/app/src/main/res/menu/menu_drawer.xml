@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/inicio"
+            android:title="@string/item_inicio" />
+        <item
+            android:id="@+id/item_search"
+            android:icon="@drawable/busqueda"
+            android:title="@string/item_search" />
+        <item
+            android:id="@+id/item_cuenta"
+            android:icon="@drawable/movie_grey_72x72"
+            android:title="@string/movies" />
+        <item
+            android:id="@+id/item_categorias"
+            android:icon="@drawable/televisores"
+            android:title="@string/serie" />
+        <item
+            android:id="@+id/favoritos"
+            android:icon="@drawable/televisores"
+            android:title="Favoritos" />
+        <item android:title="@string/forum">
+            <menu>
+        <item
+            android:id="@+id/item_forum"
+            android:icon="@drawable/charlar"
+            android:title="Forum" />
+            </menu>
+        </item>
+        <item android:title="@string/menu_configuration">
+            <menu>
+
+        <item
+            android:id="@+id/item_contact"
+            android:icon="@drawable/locate"
+            android:title="@string/item_contact" />
+
+        <item
+            android:id="@+id/item_configuracion"
+            android:icon="@drawable/configuracion"
+            android:title="@string/item_configuracion" />
+            </menu>
+        </item>
+        <item android:title="@string/menu_lang">
+            <menu>
+                <item
+                    android:id="@+id/en"
+                    android:title="English"/>
+                <item
+                    android:id="@+id/es"
+                    android:title="Spanish"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
